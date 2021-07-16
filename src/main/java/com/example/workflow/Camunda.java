@@ -16,21 +16,9 @@ import java.util.List;
 
 @Component
     @EnableFeignClients
-    public class CalculatorRemainder implements JavaDelegate {
-
-
-
-
+    public class Camunda implements JavaDelegate {
         @Override
         public void execute(DelegateExecution delegateExecution) throws Exception {
-//            String name = (String) delegateExecution.getVariable("name");
-//            List<LinkedHashMap> res = feignInterface.findbyname(name);
-//            delegateExecution.setVariable("age", res.get(0).get("age"));
-////            UserDto kek = null;
-////            int userage = kek.getAge("Nane");
-
-
-
         }
 
 
